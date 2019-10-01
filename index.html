@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta http-equiv="refresh" content="1"> -->
+    <title>My Calender App</title>
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/master.js"></script>
+</head>
+<body>
+    <div class="is-centered">
+        <table cellspacing="0">
+            <tr>
+                <td colspan="3"><h3>Current date</h3></td>
+                <th colspan="4">14-09-2019</th>
+            </tr>
+            <tr>
+                <th>sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>thursday</th>
+                <th>friday</th>
+                <th>saturday</th>
+            </tr>
+            <tr>
+                <td> <input class="dt" type="button" onclick="triggerEvent()" value="1"></td>
+                <td> <input class="dt" type="button" onclick="triggerEvent()" value="2"></td>
+                <td> <input class="dt" type="button" onclick="triggerEvent()" value="3"></td>
+                <td> <input class="dt" type="button" onclick="triggerEvent()" value="4"></td>
+                <td> <input class="dt" type="button" onclick="triggerEvent()" value="5"></td>
+                <td> <input class="dt" type="button" onclick="triggerEvent()" value="6"></td>
+                <td> <input class="dt" type="button" onclick="triggerEvent()" value="7"></td>
+            </tr>
+            <tr>
+                <td> <input class="dt" type="button" value="8"></td>
+                <td> <input class="dt" type="button" value="9"></td>
+                <td> <input class="dt" type="button" value="10"></td>
+                <td> <input class="dt" type="button" value="11"></td>
+                <td> <input class="dt" type="button" value="12"></td>
+                <td> <input class="dt" type="button" value="13"></td>
+                <td> <input class="dt" type="button" value="14"></td>
+            </tr>
+            <tr>
+                <td> <input class="dt" type="button" value="15"></td>
+                <td> <input class="dt" type="button" value="16"></td>
+                <td> <input class="dt" type="button" value="17"></td>
+                <td> <input class="dt" type="button" value="18"></td>
+                <td> <input class="dt" type="button" value="19"></td>
+                <td> <input class="dt" type="button" value="20"></td>
+                <td> <input class="dt" type="button" value="21"></td>
+            </tr>
+            <tr>
+                <td> <input class="dt" type="button" value="22"></td>
+                <td> <input class="dt" type="button" value="23"></td>
+                <td> <input class="dt" type="button" value="24"></td>
+                <td> <input class="dt" type="button" value="25"></td>
+                <td> <input class="dt" type="button" value="26"></td>
+                <td> <input class="dt" type="button" value="27"></td>
+                <td> <input class="dt" type="button" value="28"></td>
+            </tr>
+            <tr>
+                <td> <input class="dt" type="button" value="29"></td>
+                <td> <input class="dt" type="button" value="30"></td>
+            </tr>
+        </table>
+    </div>
+        <div class="list-event is-centered" id="box">
+            <h3>No Event</h3>
+            <input type="button" value="ADD EVENT"> <br><br>
+            <input type="button" value="EDIT EVENT"> <br><br>
+            <input type="button" value="DELETE EVENT"> 
+        </div>
+</body>
+</html>
